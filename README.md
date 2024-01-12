@@ -1,4 +1,4 @@
-# A Simple Javascript Date Calculator
+# A Simple Javascript Age Calculator
 
 This project was created to demostrate the use of jaascript functions for Dom manupilation.
 
