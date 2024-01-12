@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #093028; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #237a57,
+    #093028
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #237a57,
+    #093028
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.container {
+  margin-left: 18%;
+  margin-top: 14%;
+  background-color: #b1fdd938;
+  padding: 20px;
+  width: 100%;
+  max-width: 600px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 2px #093028;
+  -webkit-box-shadow: 2px 2px 2px 2px #093028;
+  -moz-box-shadow: 2px 2px 2px 2px #093028;
+}
+
+.container h1 {
+  color: #ffffffbf;
+  font-size: 60px;
+}
+
+.container h1 span {
+  color: #093028;
+  font-weight: 800;
+}
+
+label {
+  display: block;
+  margin: 10px 0;
+  color: #ffffffbf;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 3px;
+  border: none;
+  outline: 0;
+  box-shadow: 2px 2px 2px 2px #093028;
+}
+
+button {
+  padding: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 3px;
+  border: none;
+  background-color: #093028;
+  color: #ffffffbf;
+  margin-left: 40px;
+  transition: all 0.3s;
+}
+
+button:hover {
+  background-color: #ffffffbf;
+  color: #093028;
+}
+
+#result {
+  margin-top: 40px;
+  font-size: 20px;
+  color: #ffffffbf;
+}
